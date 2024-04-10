@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+from django.urls import reverse
 
 class Category(models.Model):
 
@@ -17,6 +17,11 @@ class Category(models.Model):
     def __str__(self):
 
         return self.name
+    
+
+    def get_absolute_url(self):
+        
+        return reverse('list-category', args=[self.slug]) 
 
 
 
@@ -46,3 +51,7 @@ class Product(models.Model):
 
         return self.title
 
+
+    def get_absolute_url(self):
+        
+        return reverse('product-info', args=[self.slug])
