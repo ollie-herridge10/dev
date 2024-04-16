@@ -3,6 +3,8 @@ Tools Used
 * CSS
 * Django
 * JavaScript
+* AJAX
+* JSON
 * Bootstrap
 * Bootswatch
 * Fontawesome
