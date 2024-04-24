@@ -59,6 +59,13 @@ class LoginForm(AuthenticationForm):
 
 class UpdateUserForm(forms.ModelForm):
 
+    class Meta:
+
+        model = User
+        
+        fields = ['username', 'email']
+        exclude = ['password1', 'password1']
+
     password = None
 
     def __init__(self, *args, **kwargs):
@@ -70,13 +77,24 @@ class UpdateUserForm(forms.ModelForm):
 
         
     
-    class Meta:
+    # Email validation
+    
+    def clean_email(self):
 
-        model = User
-        
-        fields = ['username', 'email']
-        exclude = ['password1', 'password1']
- 
+        email = self.cleaned_data.get("email")
+
+        if User.objects.filter(email=email).exclude(pk=self.instance.pk).exists():
+
+            raise forms.ValidationError('This email is invalid')
+
+        # len function updated
+
+        if len(email) >= 350:
+
+            raise forms.ValidationError("Your email is too long")
+
+
+        return email
  
 
     
