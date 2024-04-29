@@ -18,5 +18,7 @@ Tools Used
 Manage Profile
 Can change username and password, but cannot change those fields to things that have already been used.
 
+JS Timeouts for messages.
+
 
 Used Shell terminal and Cookies in the Application tab in Developer Tools to check the carts functionality sessions and if a user had previously been on the site.
