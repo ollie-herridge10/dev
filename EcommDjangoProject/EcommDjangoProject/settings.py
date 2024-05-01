@@ -158,3 +158,6 @@ EMAIL_USE_TLS = 'True'
 
 EMAIL_HOST_USER = 'herridgeollie@gmail.com'
 EMAIL_HOST_PASSWORD = 'kogy hhel fbjc xtgu'
+
+
+SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
