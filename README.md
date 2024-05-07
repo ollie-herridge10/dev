@@ -75,4 +75,5 @@ Tools Used
 Testing
 * Used Shell terminal and Cookies in the Application tab in Developer Tools to check the carts functionality sessions and if a user had previously been on the site.
 * Used Developer Tools to test the sites reactiveness 
-* <summary> Lighthouse Testing <summary> <details>![Lighthouse Testing](EcommDjangoProject/static/media/images/LighthouseTesting.jpg) <details>
+<details> <summary> Lighthouse Testing <summary>
+![Lighthouse Testing](EcommDjangoProject/static/media/images/LighthouseTesting.jpg) <details>
