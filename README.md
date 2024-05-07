@@ -24,7 +24,7 @@ JS Timeouts for messages.
 Used Shell terminal and Cookies in the Application tab in Developer Tools to check the carts functionality sessions and if a user had previously been on the site.
 
 
-![Home Page](static/media/images/HomePage.png)
+![Home Page](EcommDjangoProject/static/media/images/HomePage.jpg)
 
 
 Login
