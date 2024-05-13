@@ -59,7 +59,7 @@ The site also has many other features where you can change your login details, t
 
 
 
-Other Features
+# Other Features
 * Register an account 
 * Categories - choose a clothing category ewith the drop down
 * Forgotten password - change your password via email
@@ -68,8 +68,7 @@ Other Features
 * Manage Shipping - change your default shipping details
 
 
-
-Tools Used
+# Tools Used
 * HTML
 * CSS
 * Django
@@ -83,7 +82,7 @@ Tools Used
 * Fontawesome
 
 
-Testing
+# Testing
 * Used Shell terminal and Cookies in the Application tab in Developer Tools to check the carts functionality sessions and if a user had previously been on the site.
 * Used Developer Tools to test the sites reactiveness 
 * Used Django Admin to understand if data was being pushed through from the site such as; logins and purchases
