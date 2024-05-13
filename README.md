@@ -5,15 +5,15 @@ This project is an online ecommerce store that allows you to purchase items on t
 The site also has many other features where you can change your login details, track your orders and update your basket as you go through your shopping experience.
 
 
-Home Page
+# Home Page
 ![Home Page](EcommDjangoProject/static/media/images/HomePage.jpg)
 
 
-Products
+# Products
 ![Products](EcommDjangoProject/static/media/images/Products.jpg)
 
 
-Login
+# Login
 ![Login](EcommDjangoProject/static/media/images/Login.jpg)
 
 
@@ -41,6 +41,7 @@ PayPal Purchase
 
 
 Django Admin
+
 ![Django Orders](EcommDjangoProject/static/media/images/Django1.jpg)
 
 ![Django Buyer Details](EcommDjangoProject/static/media/images/Django2.jpg)
