@@ -1,8 +1,8 @@
-Ecommerce Django Store
+# Ecommerce Django Store
 
-This project is an online ecommerce store that allows you to purchase items on the store whether you have an account or not through means of PayPal or card payments.
+### This project is an online ecommerce store that allows you to purchase items on the store whether you have an account or not through means of PayPal or card payments.
 
-The site also has many other features where you can change your login details, track your orders and update your basket as you go through your shopping experience.
+### The site also has many other features where you can change your login details, track your orders and update your basket as you go through your shopping experience.
 
 
 # Home Page
