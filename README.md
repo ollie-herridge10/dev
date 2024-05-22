@@ -4,52 +4,67 @@
 
 ### The site also has many other features where you can change your login details, track your orders and update your basket as you go through your shopping experience.
 
+# Wireframes
 
-# Home Page
+## Home Page Wireframe
+![Home Page](EcommDjangoProject/static/media/images/HomeWF.jpg)
+
+
+## Basket Page Wireframe
+![Basket Page](EcommDjangoProject/static/media/images/BasketWF.jpg)
+
+
+## All Form Page Layouts Wireframe
+![Form Pages](EcommDjangoProject/static/media/images/InfoWF.jpg)
+
+
+# Website
+
+## Home Page
 ![Home Page](EcommDjangoProject/static/media/images/HomePage.jpg)
 
 
 
-# Products
+## Products
 ![Products](EcommDjangoProject/static/media/images/Products.jpg)
 
 
 
-# Login
+## Login
 ![Login](EcommDjangoProject/static/media/images/Login.jpg)
 
 
 
-# Dashboard
+## Dashboard
 ![Dashboard](EcommDjangoProject/static/media/images/Dashboard1.jpg)
 
 ![Dashboard](EcommDjangoProject/static/media/images/Dashboard2.jpg)
 
 
 
-# Add to Cart
+## Add to Cart
 ![Add To Cart](EcommDjangoProject/static/media/images/AddToCart.jpg)
 
 
 
-# Cart
+## Cart
 ![Cart](EcommDjangoProject/static/media/images/Cart.jpg)
 
 
 
-# Checkout
+## Checkout
 ### If you're logged into your account then your shipping info will show up, if you're not then you'll need to manually put that info in. You can also pay by card or PayPal.
 ![Checkout](EcommDjangoProject/static/media/images/Checkout.jpg)
 
 
 
-# PayPal Purchase
+## PayPal Purchase
 ### I created two PayPal accounts, one for a customer and one to act as the merchant in order to recreate what an actual purchase would look like through PayPal.
 ![PayPal](EcommDjangoProject/static/media/images/PayPal.jpg)
 
 
 
-# Django Admin
+## Django Admin
 ### This image shows the different purchases that were made.
 ![Django Orders](EcommDjangoProject/static/media/images/Django1.jpg)
 
